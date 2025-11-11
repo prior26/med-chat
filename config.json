@@ -1,0 +1,27 @@
+{
+    "med-model": {
+        "name": "alibayram/medgemma:4b",
+        "params": {
+            "temperature": 0.4,
+            "top_p": 0.2,
+            "context_length_multiplier": 30
+        }
+    },
+    "judge-model": {
+        "name": "gemma3:27b",
+        "params": {
+            "temperature": 0.4,
+            "top_p": 0.2,
+            "context_length_multiplier": 30
+        }
+    },
+    
+    "paths": {
+        "data_folder": "./data",
+        "output_folder": "./outputs",
+        "logs_folder": "./logs",
+        "system_prompt": "./prompts/v0.txt",
+        "one_shot_example": "",
+        "test_QA": "./QA.json"
+    }
+}
